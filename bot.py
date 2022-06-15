@@ -149,6 +149,7 @@ class Bot(Client):
                     "\nBot Berhenti. Gabung Group https://t.me/L9BTX untuk Bantuan"
                 )
                 sys.exit()
+        if FORCE_SUB_CHANNEL4:
             try:
                 link = await self.export_chat_invite_link(FORCE_SUB_CHANNEL4)
                 self.invitelink5 = link
