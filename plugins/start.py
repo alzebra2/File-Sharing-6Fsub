@@ -115,11 +115,11 @@ async def start_command(client: Client, message: Message):
             [InlineKeyboardButton("📚 ᴛᴇɴᴛᴀɴɢ sᴀʏᴀ 📚", callback_data="about")],
             [
                 InlineKeyboardButton("•ᴄʜᴀɴɴᴇʟ•", url=client.invitelink),
-                InlineKeyboardButton("•ɢʀᴏᴜᴘ•", url=client.invitelink2),
+                InlineKeyboardButton("•ᴄʜᴀɴɴᴇʟ•", url=client.invitelink2),
             ],
             [
                 InlineKeyboardButton("•ᴄʜᴀɴɴᴇʟ•", url=client.invitelink3),
-                InlineKeyboardButton("•ᴄʜᴀɴɴᴇʟ•", url=client.invitelink4),
+                InlineKeyboardButton("•ɢʀᴏᴜᴘ•", url=client.invitelink4),
            ],
            [
                InlineKeyboardButton("•ᴄʜᴀɴɴᴇʟ•", url=client.invitelink5), 
