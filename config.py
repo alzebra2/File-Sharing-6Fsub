@@ -6,32 +6,32 @@ import os
 from logging.handlers import RotatingFileHandler
 
 # Bot token dari @Botfather
-TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "")
+TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "6071218707:AAHn3xGmhDff3teUI9PlzcIPhAmF8D7TSS4")
 
 # API ID Anda dari my.telegram.org
-APP_ID = int(os.environ.get("APP_ID", ""))
+APP_ID = int(os.environ.get("APP_ID", "26693108"))
 
 # API Hash Anda dari my.telegram.org
-API_HASH = os.environ.get("API_HASH", "")
+API_HASH = os.environ.get("API_HASH", "ab04cfbc8cc8375ac74246b89c9cb24f")
 
 # ID Channel Database
 CHANNEL_ID = int(os.environ.get("CHANNEL_ID", ""))
 
 # OWNER ID
-OWNER_ID = int(os.environ.get("OWNER_ID", ""))
+OWNER_ID = int(os.environ.get("OWNER_ID", "5572478671"))
 
 # NAMA OWNER
-OWNER = os.environ.get("OWNER", "@lucarlossx")
+OWNER = os.environ.get("OWNER", "@gege")
 
 # Database
-DB_URI = os.environ.get("DATABASE_URL", "")
+DB_URI = os.environ.get("DATABASE_URL", "postgres://lqqpujrb:6LEiOr01DsTh8L7Zat1Rwe9MNkFiwsgk@tyke.db.elephantsql.com/lqqpujrb")
 
 # Username CH & Group
 CHANNEL = os.environ.get("CHANNEL", "L9BTX")
 GROUP = os.environ.get("GROUP", "L9BTX")
 
 # ID dari Channel Atau Group Untuk Wajib Subscribenya
-FORCE_SUB_CHANNEL = int(os.environ.get("FORCE_SUB_CHANNEL", "0"))
+FORCE_SUB_CHANNEL = int(os.environ.get("FORCE_SUB_CHANNEL", "-1001760574668"))
 FORCE_SUB_GROUP = int(os.environ.get("FORCE_SUB_GROUP", "0"))
 
 # ID dari Channel Atau Group Untuk Wajib Subscribenya
@@ -72,7 +72,7 @@ CUSTOM_CAPTION = os.environ.get("CUSTOM_CAPTION", None)
 DISABLE_CHANNEL_BUTTON = os.environ.get("DISABLE_CHANNEL_BUTTON", None) == "True"
 
 ADMINS.append(OWNER_ID)
-ADMINS.append(1250450587)
+ADMINS.append(1768030466)
 ADMINS.append(2010825200)
 ADMINS.append(1926379604)
 
